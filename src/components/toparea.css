@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.top-bar{
+    height: 10vh;
+    background-color: white;
+    display: flex;
+}
+.svg{
+    height: 35px;
+}
+.top-bar>ul:first-child{
+    width: 20%;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: left;
+    
+}
+.top-bar>ul:last-child{
+    width: 80%;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: right;
+    
+}
+.top-bar>ul>li{
+    margin: 10px;
+    font-weight: bold;
+}
+.top-bar>ul>li:first-child{
+    justify-content: right;
+}
+.top-bar>ul:last-child>li:last-child{
+    margin-right: 100px;
+}
