@@ -7,9 +7,10 @@
     background-color: white;
     display: flex;
 }
-.svg{
+svg{
     height: 35px;
 }
+
 .top-bar>ul:first-child{
     width: 20%;
     display: flex;
@@ -35,4 +36,8 @@
 }
 .top-bar>ul:last-child>li:last-child{
     margin-right: 100px;
+}
+.top-bar>ul>li:hover{
+    cursor: pointer;
+    scale: 1.1;
 }

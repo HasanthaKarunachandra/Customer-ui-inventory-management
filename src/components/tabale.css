@@ -27,14 +27,22 @@ button{
     height: 40px;
     width: 150px;
     margin-right: 25px;
+    font-weight: bold;
     border-radius: 5px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
 }
+
 button:nth-child(2){
     background-color: #4A55A2;
+}
+button:hover{
+    cursor: pointer;
+    scale: 1.1;
+    background-color: black;
+    color: white;
 }
 .table-row{
     width: 100%;
@@ -43,9 +51,7 @@ button:nth-child(2){
 table{
     width: 100%;
 }
-th{
 
-}
 td{
     height: 50px;
     text-align: center;

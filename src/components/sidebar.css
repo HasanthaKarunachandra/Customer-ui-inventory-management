@@ -11,12 +11,28 @@
     align-items: center;
 }
 .side-bar>ul>li{
-    margin-top: 50px;
+    margin-top: 40px;
     border: 1px solid black;
     border-radius: 5px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
+}
+.side-bar>ul>li:hover{
+    fill: white;
+    scale: 1.1; 
+      
+}
+.side-bar>ul>li>svg{
+    width: 100%;
+}
+.side-bar>ul>li>div{
+    justify-content: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 3px;
+    font-size: 10px;
 }
 
